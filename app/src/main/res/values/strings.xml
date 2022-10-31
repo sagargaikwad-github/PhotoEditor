@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhotoEditor</string>
+
+    <string name="edit_text_hint"><font size="50">Enter Text Here</font></string>
+</resources>

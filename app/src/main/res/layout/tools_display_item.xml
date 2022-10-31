@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+<!-- <com.google.android.material.button.MaterialButton-->
+<!--     android:id="@+id/tools_display_item_BTN"-->
+<!--     android:layout_width="150dp"-->
+<!--     android:layout_height="80dp"-->
+<!--     style="?attr/materialButtonOutlinedStyle"-->
+<!--     app:strokeColor="#000000"-->
+<!--     android:text="Tools"-->
+<!--     android:textColor="@color/black" />-->
+
+ <RelativeLayout
+     android:layout_width="150dp"
+     android:background="@drawable/tools_bg"
+     android:padding="5dp"
+     android:layout_height="wrap_content">
+
+  <ImageView
+      android:id="@+id/tools_display_item_IV"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginStart="3dp"
+      android:layout_marginTop="3dp"
+      android:layout_marginEnd="3dp"
+      android:layout_marginBottom="3dp"
+      android:src="@drawable/crop"></ImageView>
+
+  <TextView
+      android:id="@+id/tools_display_item_TV"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tools_display_item_IV"
+      android:layout_alignParentEnd="true"
+      android:layout_marginEnd="5dp"
+      android:layout_marginBottom="5dp"
+      android:gravity="end"
+      android:text="CROP"
+      android:textColor="@color/textColor"
+      android:textSize="16sp"></TextView>
+ </RelativeLayout>
+
+
+</LinearLayout>
